@@ -34,7 +34,7 @@ document.getElementById('navigation2').onclick = function(e) {
 
 L.control.zoomslider().addTo(map);
 
-d1 = L.mapbox.featureLayer(district_1);
+
 d2 = L.mapbox.featureLayer(district_2);
 s = L.mapbox.featureLayer(schools);
 h = L.mapbox.featureLayer(health);
