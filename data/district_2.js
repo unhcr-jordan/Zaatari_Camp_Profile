@@ -10,7 +10,7 @@ var district_2 = {
 
 
 
-for(var i = 0; i < district_1.features.length; i++ ) {
+for(var i = 0; i < district_2.features.length; i++ ) {
 
 district_2.features[i].properties["fill"]= "#3887BE";
 district_2.features[i].properties["fill-opacity"]= 0.07;
