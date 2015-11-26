@@ -34,7 +34,7 @@ document.getElementById('navigation2').onclick = function(e) {
 
 L.control.zoomslider().addTo(map);
 
-
+d11 = L.mapbox.featureLayer(d1);
 d2 = L.mapbox.featureLayer(district_2);
 s = L.mapbox.featureLayer(schools);
 h = L.mapbox.featureLayer(health);
@@ -123,11 +123,11 @@ for (var  i = 1 ; i <=12; i++) {
 
 	
 document.getElementById(i).onmouseover = function() {
-	d1.addTo(map);
+	d11.addTo(map);
 };
 
 document.getElementById(i).onmouseout = function() {
-	map.removeLayer(d1);
+	map.removeLayer(d11);
 
 } 
 
