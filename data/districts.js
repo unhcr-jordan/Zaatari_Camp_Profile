@@ -37,7 +37,7 @@ district.features[i].properties["stroke-width"]= 4 ;
 		
 		
 		
-	    
+var d1 = = district.features[3];	    
 				
 var d4 = district.features[8];			
 				
