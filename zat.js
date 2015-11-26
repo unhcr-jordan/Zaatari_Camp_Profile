@@ -56,7 +56,7 @@ d99 = L.mapbox.featureLayer(d9);
 d100 = L.mapbox.featureLayer(d10);
 d110 = L.mapbox.featureLayer(d11);
 d120 = L.mapbox.featureLayer(d12);
-
+d111 = L.mapbox.featureLayer(d1);
 
 
 c= L.mapbox.featureLayer(hh, {
@@ -123,11 +123,11 @@ for (var  i = 1 ; i <=12; i++) {
 
 	
 document.getElementById(i).onmouseover = function() {
-	d11.addTo(map);
+	d111.addTo(map);
 };
 
 document.getElementById(i).onmouseout = function() {
-	map.removeLayer(d11);
+	map.removeLayer(d111);
 
 } 
 
