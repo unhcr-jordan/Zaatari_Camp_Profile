@@ -1,5 +1,5 @@
 
-L.mapbox.accessToken = 'pk.eyJ1IjoiamV0bG8iLCJhIjoiSTlwZDNSRSJ9.Wp9Hd_27TVS_eaPgV65FAQ';
+L.mapbox.accessToken = 'pk.eyJ1Ijoiam9yZGFuY29vcmQiLCJhIjoiMWJkNDRjYTM5ODczMzgwODFlMTI5OTFlMjQyZTNlZDcifQ.lY7e-w0lvv2XUowKHxY7Sg';
 
 var map = L.mapbox.map('map','jordancoord.nehe3hjh', {zoomControl: false}).setView([32.291, 36.325], 15);
 	
