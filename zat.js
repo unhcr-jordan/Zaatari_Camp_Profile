@@ -1,7 +1,7 @@
 
 L.mapbox.accessToken = 'pk.eyJ1IjoiamV0bG8iLCJhIjoiSTlwZDNSRSJ9.Wp9Hd_27TVS_eaPgV65FAQ';
 
-var map = L.mapbox.map('map','mapbox://styles/jordancoord/ciipw44gu007h2lknn8lhwkik', {zoomControl: false}).setView([32.291, 36.325], 15);
+var map = L.mapbox.map('map','ciipw44gu007h2lknn8lhwkik', {zoomControl: false}).setView([32.291, 36.325], 15);
 	
 
 L.control.scale().addTo(map);
