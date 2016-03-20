@@ -57,7 +57,7 @@ d100 = L.mapbox.featureLayer(d10);
 d110 = L.mapbox.featureLayer(d11);
 d120 = L.mapbox.featureLayer(d12);
 d111 = L.mapbox.featureLayer(d1);
-
+dblocs = L.mapbox.featureLayer(blocs);
 
 c= L.mapbox.featureLayer(hh, {
     pointToLayer: function(feature, latlon) {
@@ -88,14 +88,16 @@ L.control.layers({
 
 
 
-map.on('zoomend', function() {
+	
+	map.on('zoomend', function() {
     
     if (map.getZoom() > 16) {
         
-	mos.addTo(map)}
+	dblocs.addTo(map)}
 	
-	else{map.removeLayer(mos)};
+	else{map.removeLayer(dblocs)};
     } );
+
 
 
 
