@@ -102,14 +102,7 @@ L.control.layers({
 
 
 
-map.on('zoomend', function() {
-    
-    if (map.getZoom() > 16) {
-        
-	c.addTo(map)}
-	
-	else{map.removeLayer(c)};
-    } );
+
 
 
 	
