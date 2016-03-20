@@ -87,9 +87,7 @@ L.control.layers({
 
 
 
-
-	
-	map.on('zoomend', function() {
+map.on('zoomend', function() {
     
     if (map.getZoom() > 16) {
         
